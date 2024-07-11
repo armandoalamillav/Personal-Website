@@ -1,0 +1,58 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 1.7rem;
+    background-color: #333;
+    color: #eee;
+    margin-bottom: 40px;
+}
+
+#main-header, #main-subheader, #img-caption{
+    text-align: center;
+}
+
+img{
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+p{
+    max-width: 60%;
+    text-align: justify;
+    margin: auto;
+}
+
+.about, .subject, .date{
+    margin-left: 300px;
+}
+
+h6{
+    margin-top: -15px;
+}
+
+
+/*Link sin visitar*/
+a:link {
+    color: red;
+}
+
+/*link visitado*/
+a:visited {
+    color: #eee;
+}
+
+/*Mouse sobre el link */
+a:hover {
+    color: red;
+}
+  
+/*Click en el link */
+a:active {
+    color: blue;
+}
