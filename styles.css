@@ -29,8 +29,7 @@ p{
 }
 
 .about, .subject, .date{
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 h6{
